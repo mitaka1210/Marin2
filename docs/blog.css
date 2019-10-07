@@ -1,0 +1,31 @@
+
+.site-footer {
+    border:  0 solid #CCC;
+    padding: 1em 1.5em;
+}
+
+/*.site-header {
+    border-bottom-width: 1px; 
+    padding-top: 2em;
+}*/
+img {
+    width: 60em;
+    height: 15em;
+    margin-bottom: 3em;
+}
+
+.site-branding h1 {
+    padding-top: 0;
+    line-height: 1;
+}
+
+.site-footer {
+    border-top-width: 1px;
+}
+
+.entry-header h2 {
+  text-transform: capitalize;
+  color: red;
+  margin-top: 1em;
+  border-bottom: 1px solid #CCC;
+}

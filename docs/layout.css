@@ -1,0 +1,42 @@
+body {
+
+}/*МОЖЕ ДА РАСТЕШ КОЛКОТО ИСКАШ НО*/
+
+/*КОГАТА СТАНЕШ 60em СПРИ ДА РАСТЕШ И СЕ ЦЕНТРИРАЙ*/
+
+/*234 - ПИКСЕЛИТЕ КОЙТО ИСКАМЕ ДА ПОСТИГНЕМ*/
+
+/*FONT-SIZE СМЕ ГО ЗАДАЛИ 16px РАЗДЕЛЯМЕ 234/16 И НАМИРАМЕ КОЛКО (em) СА НИ НУЖНИ СПРЯМО ИСКАНИТЕ ПИКСЕЛИ*/
+.site {
+    max-width: 60em;
+    margin: 0 auto;
+}
+.site-branding {
+    display: inline-block;
+    width: 50%;
+
+}
+
+.site-header nav {
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+}
+
+.site-main {
+display: inline-block;
+width: 69%;
+}
+
+.site-sidebar{
+display: inline-block;
+width: 30%;
+vertical-align: top;
+background: #EEE;
+margin-top: 21em;
+ 
+}
+
+.entry {
+    padding: 0 1.5em;
+}
