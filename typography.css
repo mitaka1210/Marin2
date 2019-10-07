@@ -1,0 +1,43 @@
+/* ИМАМЕ ПРАВО САМО НА ШРИФТА В САЙТА*/
+
+
+/*ШРИФТА Е МЕЖДУ 14-16px ПО-СТАНДАРТ */
+
+html {
+    font: 16px/1.5 Arial, Helvetica, sans-serif;
+
+}
+
+
+
+body, table, form, input, textarea, option, select {
+    font: inherit;
+
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding-bottom: .5em;
+}
+
+h1 { font-size: 2.8em; }
+h2 { font-size: 2.2em; }
+h3 { font-size: 1.8em; }
+h4 { font-size: 1.6em; }
+h5 { font-size: 1.4em; }
+h6 { font-size: 1.2em; }
+
+/*КОГАТА ПЪРВО Е ПАРАГРАФА ПОСЛЕ ЗАГЛАВИЕТО ИЗПОЛЗВСЕ ЗА МЕТА ДАТА НАД ЗАГЛАВИЕТО */
+
+p + h1, 
+p + h2,
+p + h3, 
+p + h4,
+p + h5, 
+p + h6 {
+    padding-top: .5em;
+}
+
+body {
+    padding: 50px 100px;
+}
