@@ -1,80 +1,44 @@
-.my-nav {
-	list-style: none;
-	margin-left: -0.5em;
-	margin-right: -0.5em;
-	padding: 0;
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
+
+body {
+  font-family: 'Open Sans', sans-serif;
 }
-
-.my-nav > li {
-	display: block;
-	margin-left: 0.5em;
-	margin-right: 0.5em;
-}
-
-@media (min-width: 40em) {
-	.my-nav > li {
-		display: inline-block;
-	}
-}
-
-
-.my-nav > li:before {
-	content: "\200B"; 
-	position: absolute; 
-}
-
-
-
-.dropdown > summary {
-	cursor: pointer;
-	/* Customize from here down */
-	color: blue;
-}
-
-/**
- * Position the dropdown content
- */
-.dropdown {
-	display: inline-block;
-	position: relative;
-}
-
-/**
- * Style the dropdown list
- */
-.dropdown > ul {
-	background-color: #ffffff;
-	border: 1px solid #cccccc;
-	border-radius: 0.25em;
-	list-style: none;
-	margin: 0;
-	padding: 0;
-	min-width: 19em;
-	position: absolute;
-	top: 1.5em;
-	z-index: 999;
-}
-
-
-.dropdown > ul > li:before {
-	content: "\200B"; 
-	position: absolute; 
-}
-
 details {
-	margin: 1rem;
-  }
-  summary {
-	font-weight: bold;
-	list-style-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/right-arrow.svg);
-  }
-  summary:focus {
-	list-style-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/down-arrow.svg);
-  }
-  summary::-webkit-details-marker {
-	background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/right-arrow.svg);
-	color: transparent;
-  }
-  summary:focus::-webkit-details-marker {
-	background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/down-arrow.svg);
-  }
+	margin-left: 8em;
+	border-top: 1px solid;
+	color:#ecf0f1;
+	cursor: pointer;
+	background: #434343;;
+	margin-bottom: 1em;
+	margin-top: 1em;
+
+}
+.services {
+	margin-top: 3em;
+	width: 81.95em;
+    background: #434343;
+    height: auto;
+	margin-left: -12.5em;
+	padding-top: .1em;
+}
+.summary {
+	margin-top: .5em;
+}
+
+
+
+
+summary {
+  font-weight: bold;
+  list-style-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/right-arrow.svg);
+}
+summary:focus {
+  list-style-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/down-arrow.svg);
+}
+summary::-webkit-details-marker {
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/right-arrow.svg);
+  color: transparent;
+}
+summary:focus::-webkit-details-marker {
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/down-arrow.svg);
+}

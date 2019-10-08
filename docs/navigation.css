@@ -1,12 +1,21 @@
 .nav {
     text-align: right;
-    padding-top: .5em;
-    
+    padding-top: 1em;
+    position: fixed;
 }
 
 
 .nav ul li{
     display: inline-block;
+    list-style: none;
+    background: rgb(0, 0, 0);
+    overflow: hidden;
+    color: #fff;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    transition: 1s;
+    
 }
 
 .nav a {

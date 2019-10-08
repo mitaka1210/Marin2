@@ -12,15 +12,38 @@ body {
     margin: 0 auto;
 }
 .site-branding {
-    display: inline-block;
-    width: 50%;
+    /*display: inline-block;*/
+    width: 55%;
+    position: fixed;
+    float: left;
+    margin: 0 1px;
+    color: #000;
+    font-weight: bold;
+    font-size: 16px;
+    background: #FFF;
+    padding-left: 1em;
+    
+    
+    
 
+}
+
+.site-header {
+    
 }
 
 .site-header nav {
     display: inline-block;
-    width: 49%;
+    width: 32.8%;
     vertical-align: top;
+    margin-left: 32em;
+    background: #FFF;
+    padding-right: 1em;
+    font-size: 16px;
+    padding-bottom: 1.7em;
+    
+
+    
 }
 
 .site-main {
@@ -33,10 +56,25 @@ display: inline-block;
 width: 30%;
 vertical-align: top;
 background: #EEE;
-margin-top: 21em;
+margin-top: 27.1em;
+
  
 }
 
 .entry {
     padding: 0 1.5em;
+}
+
+.panel {
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.entry h6 {
+    padding-top: 1em;
+    text-transform: capitalize;
+    margin-left: 6em;
+    font-size: 25px;
+
 }

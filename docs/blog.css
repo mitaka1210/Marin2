@@ -9,9 +9,12 @@
     padding-top: 2em;
 }*/
 img {
-    width: 60em;
+    margin-top: 5.8em;
+    width: 58em;
     height: 15em;
     margin-bottom: 3em;
+    margin-left: 1em;
+   
 }
 
 .site-branding h1 {
@@ -26,6 +29,20 @@ img {
 .entry-header h2 {
   text-transform: capitalize;
   color: red;
+  
   margin-top: 1em;
   border-bottom: 1px solid #CCC;
+}
+
+.service-header h4  {
+    margin-left: 0em;
+    background: white;
+   
+    padding-top: 1em;
+}
+.service-header-header {
+    margin-left: 0em;
+    background: white;
+   
+    padding-top: 1em;
 }
