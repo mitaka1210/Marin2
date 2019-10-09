@@ -11,7 +11,8 @@ body {
     max-width: 60em;
     margin: 0 auto;
 }
-.site-branding {
+.site-branding
+{
     /*display: inline-block;*/
     width: 55%;
     position: fixed;
@@ -19,7 +20,7 @@ body {
     margin: 0 1px;
     color: #000;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 14px;
     background: #FFF;
     padding-left: 1em;
     
@@ -28,8 +29,8 @@ body {
 
 }
 
-.site-header {
-    
+.call {
+    color:red; 
 }
 
 .site-header nav {
@@ -74,7 +75,7 @@ margin-top: 27.1em;
 .entry h6 {
     padding-top: 1em;
     text-transform: capitalize;
-    margin-left: 6em;
+    margin-left: 0;
     font-size: 25px;
 
 }

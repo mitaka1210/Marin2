@@ -19,10 +19,20 @@ details {
     background: #434343;
     height: auto;
 	margin-left: -12.5em;
-	padding-top: .1em;
+	padding-top: 0em;
 }
 .summary {
 	margin-top: .5em;
+}
+
+.our {
+	background: white;
+
+}
+
+.our details {
+	background: white;
+	color: #000;
 }
 
 
