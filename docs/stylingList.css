@@ -1,8 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
 
-body {
-  font-family: 'Open Sans', sans-serif;
-}
+
 details {
 	margin-left: 8em;
 	border-top: 1px solid;
@@ -26,12 +24,12 @@ details {
 }
 
 .our {
-	background: white;
+	background: #ecf0f1;
 
 }
 
 .our details {
-	background: white;
+	background: #ecf0f1;
 	color: #000;
 }
 

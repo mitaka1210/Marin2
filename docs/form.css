@@ -1,0 +1,83 @@
+.input-container {
+   
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .icon {
+      padding: 8px;
+      padding: 8px;
+      /* background: dodgerblue; */
+      color: #000;
+      min-width: 36px;
+      text-align: center;
+      position: absolute;
+      margin-top: 0.5em;
+      font-size: 12px;
+      border-right: 1px solid;
+      top: 1p;
+      /* top: 11em; */
+      height: 5%;
+      /* padding-right: 0em; */
+      /* margin-right: -4em; */
+  }
+  
+  
+  .input-field {
+      width: 100%;
+      padding: 12px;
+      padding-left: 4em;
+      outline: none;
+      border: solid;
+      border-color: gainsboro;
+      border-radius: 7px;
+  }
+  
+  
+  .input-field:focus {
+    border: 2px solid dodgerblue;
+  }
+  h1 {
+      /* text-align: center;
+      border-bottom: 5px solid rgb(0, 89, 255);
+      padding-bottom: .5em; */
+  }
+  /* Set a style for the submit button */
+  .btn {
+    background-color: dodgerblue;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    border-radius: 9px; 
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  
+  .fa-star:before {
+      content: "\f005";
+      font-size: 5px;
+      color:red;
+  }
+  
+  label {
+      display: block;
+      margin-left: .5em;
+      margin-top: -.35em;
+      color: gainsboro;
+      padding-bottom: .5em;
+  }
+  
+  .psw1 {
+      font-size: 0.6em;
+      display: inline-block;
+      padding-left: 1em;
+      opacity: 1;
+      text-align: center;
+  
+  }

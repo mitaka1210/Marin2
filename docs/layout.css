@@ -20,8 +20,8 @@ body {
     margin: 0 1px;
     color: #000;
     font-weight: bold;
-    font-size: 14px;
-    background: #FFF;
+    font-size: 13px;
+    background: #ecf0f1;
     padding-left: 1em;
     
     
@@ -29,7 +29,7 @@ body {
 
 }
 
-.call {
+ .site-branding .call  {
     color:red; 
 }
 
@@ -38,10 +38,10 @@ body {
     width: 32.8%;
     vertical-align: top;
     margin-left: 32em;
-    background: #FFF;
+    background: #ecf0f1;
     padding-right: 1em;
     font-size: 16px;
-    padding-bottom: 1.7em;
+    padding-bottom: 1.8em;
     
 
     
@@ -78,4 +78,10 @@ margin-top: 27.1em;
     margin-left: 0;
     font-size: 25px;
 
+}
+.site-branding p {
+    color: #bdc3c7;
+ 
+    margin-left: 4em;
+    font-size: 16px;
 }
