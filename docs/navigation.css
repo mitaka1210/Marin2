@@ -15,18 +15,20 @@
     text-align: center;
     margin: 0;
     transition: 1s;
-    
+    border-radius: 0.6em;
 }
 
 .nav a {
     display: block;
     padding: .5em 1em;
     background: #3498db;
-    color: #EA2027;
+    color: #c23616;
     text-decoration: none;
+    border-radius: 0.5em;
 }
 
 .nav a:hover {
     background: #090;
     color: #FFF;
+    border-radius: 0.5em;
 }

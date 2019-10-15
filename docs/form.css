@@ -50,9 +50,12 @@
     padding: 15px 20px;
     border: none;
     cursor: pointer;
-    width: 100%;
+    width: 13em;
     opacity: 0.9;
-    border-radius: 9px; 
+    border-radius: 9px;
+    position: relative;
+    top: 1em;
+    left: 10em;
   }
   
   .btn:hover {

@@ -3,13 +3,39 @@
 
 details {
 	margin-left: 8em;
-	border-top: 1px solid;
+	/* border-top: 1px solid; */
 	color:#ecf0f1;
 	cursor: pointer;
 	background: #434343;;
-	margin-bottom: 1em;
-	margin-top: 1em;
+	
+	margin-top: 1.5em;
 
+}
+
+details > summary {
+	padding: 2px 6px;
+	width: 20em;
+	border: 1px solid #f45;
+	
+	box-shadow: 3px 3px 4px black;
+}  
+
+
+details > summary:hover {
+	color: yellow;
+}
+
+details > summary:last-child{
+	margin-bottom: 1em;
+}
+hr {
+	color: red;
+    border: 2px solid;
+    width: 29em;
+    /* padding-left: 12em; */
+    left: 8em;
+    top: 1em;
+    position: relative;
 }
 .services {
 	margin-top: 3em;
@@ -39,9 +65,10 @@ details {
 summary {
   font-weight: bold;
   list-style-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/right-arrow.svg);
-}
-summary:focus {
-  list-style-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/down-arrow.svg);
+} 
+
+ summary:focus {
+  list-style-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/down-arrow.svg); 
 }
 summary::-webkit-details-marker {
   background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/right-arrow.svg);
