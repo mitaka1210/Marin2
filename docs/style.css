@@ -1,9 +1,12 @@
 @import url('typography.css');
 @import url('reset.css');
-@import url('responsive.css');
+/* @import url('responsive.css'); */
 
 @import url('stylingList.css');
 @import url('blog.css');
 @import url('layout.css');
 @import url('navigation.css');
 @import url('form.css');
+@import url('slideShow.css');
+
+/* @import url('move.js'); */

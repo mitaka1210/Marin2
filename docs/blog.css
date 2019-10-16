@@ -33,7 +33,7 @@ img {
   text-transform: capitalize;
   color: red;
   
-  margin-top: 1em;
+  margin-top: 5.5em;
   border-bottom: 1px solid #CCC;
 }
 
@@ -43,4 +43,9 @@ img {
     padding-top: 2em;
     padding-left: 7em;
 
+}
+
+.contact h2 {
+    
+    padding-top: 1em;
 }
